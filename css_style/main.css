@@ -1,0 +1,109 @@
+.content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    min-height:440px
+}
+.content_form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 22%;
+}
+#name,
+#e-mail,
+#subject,
+#text
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:4px 0 8px 0;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.content_icon{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+iframe{
+    padding: 30px;
+}
+.lista_content h1{
+    text-align: center;
+    margin-bottom: 25px !important;
+}
+.lista_content ul{
+    list-style:circle;
+}
+.lista_content li{
+    margin:10px;
+}
+.nossa_historia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nossa_historia img{
+    border:solid;
+    border-radius: 5%;
+    width: 600px;
+}
+.nossa_historia p{
+    padding: 4px;
+}
+.content h1{
+   margin: 20px 0 15px 0;
+}
+.content p{
+    text-align:center;
+    margin:20px 0 30px 0;
+}
+.content_time p{
+    text-align: justify;
+}
+.content_table{
+    width: 80%;
+    background-color: #f0f8ff
+}
+.content_table tr th,
+.content_table tr td{
+    border: 1px solid black;
+    padding: 5px;
+}
+.content_table tr th{
+
+    background-color: rgb(168, 218, 213);
+}
+.content_table tr:hover{
+    transition: .5s;
+    background-color: rgb(168, 218, 213);
+}
+.content_time {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content_time img{
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+.menu a:hover,
+.footer a:hover{
+    transition:.2s;
+    text-decoration: underline;
+}
